@@ -30,7 +30,6 @@ imgAttiva.classList.add('attiva');
 avanti.addEventListener('click',
    function(){
         imageList[imgVisibile].classList.remove('show');
-		imgAttiva[imgVisibile].classList.remove('attiva');
         imgVisibile++;
         imageList[imgVisibile].classList.add('show');
 		imgAttiva.classList.add('attiva');
